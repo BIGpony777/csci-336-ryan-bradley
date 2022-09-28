@@ -2,13 +2,12 @@ const numbers = [4, 3, -2, 0, 1, -5, -1, 6];
 
 // Maybe write your funciont here.
 function getCountSum (userArray) {
-    let returnArray = [0,0];
-    
-for(let i = 0; i < numbers.length; i++) {
-  if(numbers[i]>0){returnArray[0] ++}
-  else{returnArray[1] += numbers[i]};
-};
-return returnArray;
+  let returnArray = [0,0];
+  for(let i = 0; i < userArray.length; i++) {
+    if(userArray[i]>0){returnArray[0] ++}
+    else{returnArray[1] += userArray[i]};
+  };
+  return returnArray;
 }
 
 // Maybe call your function here.
