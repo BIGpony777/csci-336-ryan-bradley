@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const numB = document.getElementById("number-b").value;
        if(numA == "" || numB == "") {
          result.textContent = "you need to enter a number"}
-       else{
-         result.textContent = parseInt(numA)+parseInt(numB);
+       else {
+         result.textContent = parseInt(numA) + parseInt(numB);
        };
     };
 
@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', function () {
         const numB = document.getElementById("number-b").value;
         if(numA == "" || numB == "") {
             result.textContent = "you need to enter a number"}
-          else{
-            result.textContent = parseInt(numA)-parseInt(numB);
+          else {
+            result.textContent = parseInt(numA) - parseInt(numB);
           };
     };
 
