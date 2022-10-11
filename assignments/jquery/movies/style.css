@@ -1,0 +1,10 @@
+.movie {
+    padding: .1cm;
+}
+.movie:hover{
+    color: orange;
+}
+.remove-movie-btn{
+    margin: .1cm;
+}
+
