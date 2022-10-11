@@ -1,6 +1,5 @@
 $(document).ready(function() {
-
-
+  
   $("#movie-list").on("click",".remove-movie-btn", function() {  
     $(this).closest("div").hide();
   });
