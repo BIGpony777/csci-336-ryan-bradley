@@ -1,0 +1,13 @@
+.container-alerts {
+  padding-top: 15px;
+}
+
+.alert-purple{
+  color: white;
+  background-color: blueviolet;
+}
+
+.btn-purple{
+  color: white !important;
+  background-color: blueviolet !important;
+}
