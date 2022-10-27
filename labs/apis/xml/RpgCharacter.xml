@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RpgCharacter.xsd" characterId="1">
+    <name>Ryan</name>
+    <level>777</level>
+    <class>Wizard</class>
+    <inventory>
+        <item itemId="5">
+            <name>badwand</name>
+            <attack>-4000</attack>
+            <defense>0</defense>
+            <effect>kills you</effect>
+        </item>
+        <item itemId ="6">
+            <name>goodhat</name>
+            <attack>0</attack>
+            <defense>80000</defense>
+            <effect>saves you</effect>
+            
+        </item>
+    </inventory>
+</Character>
