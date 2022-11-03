@@ -1,0 +1,758 @@
+{
+	"info": {
+		"_postman_id": "59072e74-b094-45fa-a92a-95cf7b0bc0f3",
+		"name": "Ryan Bradley Deck of Cards",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24216522"
+	},
+	"item": [
+		{
+			"name": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"new",
+						"shuffle",
+						""
+					],
+					"query": [
+						{
+							"key": "deck_count",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"new",
+								"shuffle",
+								""
+							],
+							"query": [
+								{
+									"key": "deck_count",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:19:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=4wu7Mc%2FMcE8LwA2%2Bey319S852aZOUufFCuF4XeYFtyYxfbfmSBY%2ByQ01H%2FVYtQcxJsE8rx5idMu4kvxenlB8DqcAIbpNlFliLhOaDpxIsoJ8t3G%2FtXaPm9R857Ip6TtCg%2FZ3BWU%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646c5f2bc499e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"u5uwitra4mts\",\n    \"remaining\": 52,\n    \"shuffled\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=5",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"u5uwitra4mts",
+						"draw",
+						""
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=5",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"u5uwitra4mts",
+								"draw",
+								""
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "5"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:21:26 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=sZ87DKp40IHGgRRC2JjYcSLW7sexL2pxUlh57aE2kK8q96nZaygr0XonpNvz6u%2BnhSiB27zxxdoGh8psdWembXHE8IZISIcDJU8D35MP0lYUY1fQYi%2F4cXiam6C5mzk9vGT8ECc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646c94a5c1f9e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"u5uwitra4mts\",\n    \"cards\": [\n        {\n            \"code\": \"9D\",\n            \"image\": \"https://deckofcardsapi.com/static/img/9D.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/9D.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/9D.png\"\n            },\n            \"value\": \"9\",\n            \"suit\": \"DIAMONDS\"\n        },\n        {\n            \"code\": \"2S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/2S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/2S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/2S.png\"\n            },\n            \"value\": \"2\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"7C\",\n            \"image\": \"https://deckofcardsapi.com/static/img/7C.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/7C.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/7C.png\"\n            },\n            \"value\": \"7\",\n            \"suit\": \"CLUBS\"\n        },\n        {\n            \"code\": \"3C\",\n            \"image\": \"https://deckofcardsapi.com/static/img/3C.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/3C.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/3C.png\"\n            },\n            \"value\": \"3\",\n            \"suit\": \"CLUBS\"\n        },\n        {\n            \"code\": \"KD\",\n            \"image\": \"https://deckofcardsapi.com/static/img/KD.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/KD.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/KD.png\"\n            },\n            \"value\": \"KING\",\n            \"suit\": \"DIAMONDS\"\n        }\n    ],\n    \"remaining\": 45\n}"
+				}
+			]
+		},
+		{
+			"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/shuffle/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/shuffle/",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"u5uwitra4mts",
+						"shuffle",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/shuffle/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/shuffle/",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"u5uwitra4mts",
+								"shuffle",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:23:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=hp4O%2FGlzykrDyZKNNxwQmL%2FlXVpxWvC6tucnql9c2LHdKmgiTZtLoVxZLZZPRIcacZXlFwWMwHE02Wx3MZL4Znhw7f9gsPIdEQuAwmatGVDeiK21I%2BeO9mzzOHDqwPWrBvQbD1k%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646cbb599659e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"u5uwitra4mts\",\n    \"remaining\": 52,\n    \"shuffled\": true\n}"
+				}
+			]
+		},
+		{
+			"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=4",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"u5uwitra4mts",
+						"draw",
+						""
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/u5uwitra4mts/draw/?count=4",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"u5uwitra4mts",
+								"draw",
+								""
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "4"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:24:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=ZQdcRq1aqvYIyPtsNi0XTHfe35mDBzzlekdQrtrYi8%2BCtBah2pSzolk9GOvhOCEpGDLWCYnFmiGbizI9qnzf90ZErJ1U%2B0upXk%2BKjtuvq%2FqPuwg0kTq0bAtsJX7Bj6Rmr5B3JIM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646cd9eed819e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"u5uwitra4mts\",\n    \"cards\": [\n        {\n            \"code\": \"KS\",\n            \"image\": \"https://deckofcardsapi.com/static/img/KS.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/KS.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/KS.png\"\n            },\n            \"value\": \"KING\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"7H\",\n            \"image\": \"https://deckofcardsapi.com/static/img/7H.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/7H.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/7H.png\"\n            },\n            \"value\": \"7\",\n            \"suit\": \"HEARTS\"\n        },\n        {\n            \"code\": \"3S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/3S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/3S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/3S.png\"\n            },\n            \"value\": \"3\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"5S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/5S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/5S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/5S.png\"\n            },\n            \"value\": \"5\",\n            \"suit\": \"SPADES\"\n        }\n    ],\n    \"remaining\": 48\n}"
+				}
+			]
+		},
+		{
+			"name": "https://deckofcardsapi.com/api/deck/new/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/new/",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"new",
+						""
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/new/",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/new/",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"new",
+								""
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:24:59 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=0byALiDtWUAbRkBsOBMrZSs693E6ybCU2o6I%2BPUiVx0vXrjZGbPpXes22L4amDigzs56vHEG9yQkAfu84P5%2B6AA4EQvRiUjnTslOZs6Cag1quULtxqIIlu9dl4CfT33pJZVgu3g%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646ce7ccde89e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"g5sio5olfv7r\",\n    \"remaining\": 52,\n    \"shuffled\": false\n}"
+				}
+			]
+		},
+		{
+			"name": "https://deckofcardsapi.com/api/deck/g5sio5olfv7r/draw/?count=6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://deckofcardsapi.com/api/deck/g5sio5olfv7r/draw/?count=6",
+					"protocol": "https",
+					"host": [
+						"deckofcardsapi",
+						"com"
+					],
+					"path": [
+						"api",
+						"deck",
+						"g5sio5olfv7r",
+						"draw",
+						""
+					],
+					"query": [
+						{
+							"key": "count",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://deckofcardsapi.com/api/deck/g5sio5olfv7r/draw/?count=6",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://deckofcardsapi.com/api/deck/g5sio5olfv7r/draw/?count=6",
+							"protocol": "https",
+							"host": [
+								"deckofcardsapi",
+								"com"
+							],
+							"path": [
+								"api",
+								"deck",
+								"g5sio5olfv7r",
+								"draw",
+								""
+							],
+							"query": [
+								{
+									"key": "count",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 17:25:46 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "same-origin"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "DENY"
+						},
+						{
+							"key": "Vary",
+							"value": "Origin"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=kUVmoWcaGyPC9w9r80G%2F3PjTlzjMLpkDbUVemexa2427acJamzucTJo%2Foa6xFmx4zxr4EDn2w%2FdLkGftMY0CTXZu62rWjzM4eybIsqzJRZZiRp%2F38NZsZ3RjumfGhQVon6oGCR0%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "7646cfa69f599e16-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"success\": true,\n    \"deck_id\": \"g5sio5olfv7r\",\n    \"cards\": [\n        {\n            \"code\": \"AS\",\n            \"image\": \"https://deckofcardsapi.com/static/img/AS.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/AS.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/AS.png\"\n            },\n            \"value\": \"ACE\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"2S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/2S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/2S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/2S.png\"\n            },\n            \"value\": \"2\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"3S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/3S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/3S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/3S.png\"\n            },\n            \"value\": \"3\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"4S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/4S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/4S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/4S.png\"\n            },\n            \"value\": \"4\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"5S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/5S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/5S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/5S.png\"\n            },\n            \"value\": \"5\",\n            \"suit\": \"SPADES\"\n        },\n        {\n            \"code\": \"6S\",\n            \"image\": \"https://deckofcardsapi.com/static/img/6S.png\",\n            \"images\": {\n                \"svg\": \"https://deckofcardsapi.com/static/img/6S.svg\",\n                \"png\": \"https://deckofcardsapi.com/static/img/6S.png\"\n            },\n            \"value\": \"6\",\n            \"suit\": \"SPADES\"\n        }\n    ],\n    \"remaining\": 46\n}"
+				}
+			]
+		}
+	]
+}
