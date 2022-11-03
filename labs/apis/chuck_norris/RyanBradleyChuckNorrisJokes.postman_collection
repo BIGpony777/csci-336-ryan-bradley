@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "6db24b8a-754f-40f4-9fd1-e97782144507",
+		"name": "Ryan Bradley Chuck Norris API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24216522"
+	},
+	"item": [
+		{
+			"name": "https://api.chucknorris.io/jokes/categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.chucknorris.io/jokes/categories",
+					"protocol": "https",
+					"host": [
+						"api",
+						"chucknorris",
+						"io"
+					],
+					"path": [
+						"jokes",
+						"categories"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.chucknorris.io/jokes/categories",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.chucknorris.io/jokes/categories",
+							"protocol": "https",
+							"host": [
+								"api",
+								"chucknorris",
+								"io"
+							],
+							"path": [
+								"jokes",
+								"categories"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 00:44:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=rxN%2BQQZg2vkFfxJrRIZ6guvgGRIf0yuWx4w8GVoPVWCYp5Wlvau8j6%2BhjOMvCo8w4k6K1DxK6T8fEqcl7wfmIRtDneyVsK%2FmstPPceEZOlAH%2BYDVyDoCIHrVDxSw6jJ4kS1b8vc%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "76411522ef12f04d-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    \"animal\",\n    \"career\",\n    \"celebrity\",\n    \"dev\",\n    \"explicit\",\n    \"fashion\",\n    \"food\",\n    \"history\",\n    \"money\",\n    \"movie\",\n    \"music\",\n    \"political\",\n    \"religion\",\n    \"science\",\n    \"sport\",\n    \"travel\"\n]"
+				}
+			]
+		},
+		{
+			"name": "https://api.chucknorris.io/jokes/random?category=money",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.chucknorris.io/jokes/random?category=money",
+					"protocol": "https",
+					"host": [
+						"api",
+						"chucknorris",
+						"io"
+					],
+					"path": [
+						"jokes",
+						"random"
+					],
+					"query": [
+						{
+							"key": "category",
+							"value": "money"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.chucknorris.io/jokes/random?category=money",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.chucknorris.io/jokes/random?category=money",
+							"protocol": "https",
+							"host": [
+								"api",
+								"chucknorris",
+								"io"
+							],
+							"path": [
+								"jokes",
+								"random"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "money"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 03 Nov 2022 00:49:22 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json;charset=UTF-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						},
+						{
+							"key": "CF-Cache-Status",
+							"value": "DYNAMIC"
+						},
+						{
+							"key": "Report-To",
+							"value": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=AjjcFUf%2F%2FnzvtvxqJmnlczYEwcZ3lrabNtaiRzwzGkr6GcW8gnOSNRNh%2F05ROeYM3wKX%2B4ePpkzkL8OA5VCfoRguhfDmS63FPyX5ecSGJq0%2F53SdGxZp7UBKClCgPY7GioOt1WM%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "NEL",
+							"value": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}"
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "76411c0e7fc0f04d-EWR"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "br"
+						},
+						{
+							"key": "alt-svc",
+							"value": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"categories\": [\n        \"money\"\n    ],\n    \"created_at\": \"2020-01-05 13:42:26.447675\",\n    \"icon_url\": \"https://assets.chucknorris.host/img/avatar/chuck-norris.png\",\n    \"id\": \"rC7MOkCHTCmiIh7MHOG4-g\",\n    \"updated_at\": \"2020-05-22 06:16:41.133769\",\n    \"url\": \"https://api.chucknorris.io/jokes/rC7MOkCHTCmiIh7MHOG4-g\",\n    \"value\": \"In response to the recent Ice Bucket Challenge that is trending worldwide, Chuck Norris invented a version of his own. Simply called the \\\"Bucket Challenge,\\\" you donate money to Chuck Norris or he repeatedly throws buckets at you until you give in.\"\n}"
+				}
+			]
+		}
+	]
+}
