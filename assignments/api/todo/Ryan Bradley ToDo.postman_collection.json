@@ -1,0 +1,941 @@
+{
+	"info": {
+		"_postman_id": "311cd875-3f43-41f3-912b-5d7aff298fe9",
+		"name": "Ryan Bradley ToDo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24216522"
+	},
+	"item": [
+		{
+			"name": "https://api.todoist.com/rest/v2/projects/2301654839",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/projects?id=2301654839",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"projects"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2301654839"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/projects/2301654839",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/projects?id=2301654839",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"projects"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2301654839"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:03:42 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 7daecf1a2ae08b166fcd703bb06023cc.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "n_CoaZ3TVgsqxJG2iBOmCqdpLkxH-9EwtmbQMOmIm9yFRTmaJCWXbg=="
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"2302062688\",\n        \"parent_id\": null,\n        \"order\": 0,\n        \"color\": \"grey\",\n        \"name\": \"Inbox\",\n        \"comment_count\": 0,\n        \"is_shared\": false,\n        \"is_favorite\": false,\n        \"is_inbox_project\": true,\n        \"is_team_inbox\": false,\n        \"url\": \"https://todoist.com/showProject?id=2302062688\",\n        \"view_style\": \"list\"\n    },\n    {\n        \"id\": \"2302062721\",\n        \"parent_id\": null,\n        \"order\": 1,\n        \"color\": \"grey\",\n        \"name\": \"Education 📚\",\n        \"comment_count\": 0,\n        \"is_shared\": false,\n        \"is_favorite\": false,\n        \"is_inbox_project\": false,\n        \"is_team_inbox\": false,\n        \"url\": \"https://todoist.com/showProject?id=2302062721\",\n        \"view_style\": \"list\"\n    },\n    {\n        \"id\": \"2302072728\",\n        \"parent_id\": null,\n        \"order\": 2,\n        \"color\": \"charcoal\",\n        \"name\": \"AdvancedWebDev2022\",\n        \"comment_count\": 0,\n        \"is_shared\": true,\n        \"is_favorite\": false,\n        \"is_inbox_project\": false,\n        \"is_team_inbox\": false,\n        \"url\": \"https://todoist.com/showProject?id=2302072728\",\n        \"view_style\": \"list\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/projects/2302072728/collaborators",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/projects/2302072728/collaborators",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"projects",
+						"2302072728",
+						"collaborators"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/projects/2302072728/collaborators",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/projects/2302072728/collaborators",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"projects",
+								"2302072728",
+								"collaborators"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "850"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:13:25 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 7daecf1a2ae08b166fcd703bb06023cc.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "JtNUR9iLunrGH3waLC72kU8SY3kT7FzqzkjskUpTsWdaQDMdYlhb6Q=="
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"41724348\",\n        \"name\": \"mdesanty6\",\n        \"email\": \"mdesanty6@gmail.com\"\n    },\n    {\n        \"id\": \"41724514\",\n        \"name\": \"mdesanty6+tester\",\n        \"email\": \"mdesanty6+tester@gmail.com\"\n    },\n    {\n        \"id\": \"41737914\",\n        \"name\": \"miwasiwka\",\n        \"email\": \"miwasiwka@gmail.com\"\n    },\n    {\n        \"id\": \"41737915\",\n        \"name\": \"eloise\",\n        \"email\": \"eloise@whysheep.com\"\n    },\n    {\n        \"id\": \"41737916\",\n        \"name\": \"a30115115\",\n        \"email\": \"a30115115@mcla.edu\"\n    },\n    {\n        \"id\": \"41737920\",\n        \"name\": \"arisyu03\",\n        \"email\": \"arisyu03@gmail.com\"\n    },\n    {\n        \"id\": \"41747521\",\n        \"name\": \"do4853\",\n        \"email\": \"do4853@mcla.edu\"\n    },\n    {\n        \"id\": \"41784190\",\n        \"name\": \"gormankim\",\n        \"email\": \"gorman.kimberly.a@gmail.com\"\n    },\n    {\n        \"id\": \"41815984\",\n        \"name\": \"Ryan Bradley\",\n        \"email\": \"bigpony777@gmail.com\"\n    },\n    {\n        \"id\": \"41816946\",\n        \"name\": \"Aaron Brooks\",\n        \"email\": \"brooksa245@gmail.com\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2302072728"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2302072728"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:25:45 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 7daecf1a2ae08b166fcd703bb06023cc.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "7SrO8m0hViHxGY17IczPLX8vLMv1fKOdFL6idb07NI4J4VWX-toM0A=="
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": \"6334212349\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062721\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 1,\n        \"content\": \"Add all my **education** tasks\",\n        \"description\": \"e.g.: prepare for important exams, add project deadlines, pack for field trip days\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 3,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:54.926298Z\",\n        \"due\": {\n            \"date\": \"2022-11-08\",\n            \"string\": \"Nov 8\",\n            \"lang\": \"en\",\n            \"is_recurring\": false\n        },\n        \"url\": \"https://todoist.com/showTask?id=6334212349\"\n    },\n    {\n        \"id\": \"6334212372\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062721\",\n        \"section_id\": \"106316201\",\n        \"parent_id\": null,\n        \"order\": 1,\n        \"content\": \"Review upcoming exam dates and plan ahead\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 2,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:55.508960Z\",\n        \"due\": {\n            \"date\": \"2022-11-11\",\n            \"string\": \"ev fri\",\n            \"lang\": \"en\",\n            \"is_recurring\": true\n        },\n        \"url\": \"https://todoist.com/showTask?id=6334212372\"\n    },\n    {\n        \"id\": \"6334212384\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062721\",\n        \"section_id\": \"106316201\",\n        \"parent_id\": null,\n        \"order\": 2,\n        \"content\": \"Add my _education_ routines\",\n        \"description\": \"e.g.: review anatomy flashcards every Monday, grade English papers every day for 5 days\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 1,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:55.768032Z\",\n        \"due\": null,\n        \"url\": \"https://todoist.com/showTask?id=6334212384\"\n    },\n    {\n        \"id\": \"6334212411\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062721\",\n        \"section_id\": \"106316204\",\n        \"parent_id\": null,\n        \"order\": 1,\n        \"content\": \"[A Student’s Guide to Todoist](https://blog.doist.com/todoist-guide-for-students/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=education) 🎓 and [An Educator’s Guide to Todoist](https://blog.doist.com/an-educators-guide-to-todoist/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=education) 📖\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [\n            \"read\"\n        ],\n        \"priority\": 1,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:56.437622Z\",\n        \"due\": null,\n        \"url\": \"https://todoist.com/showTask?id=6334212411\"\n    },\n    {\n        \"id\": \"6334212439\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062721\",\n        \"section_id\": \"106316204\",\n        \"parent_id\": null,\n        \"order\": 2,\n        \"content\": \"Explore Todoist's curated [education templates](https://todoist.com/templates/category/education/?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=education)\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 1,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:57.005347Z\",\n        \"due\": null,\n        \"url\": \"https://todoist.com/showTask?id=6334212439\"\n    },\n    {\n        \"id\": \"6334212472\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062688\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 1,\n        \"content\": \"Learn the basics with the easy-to-follow [Getting Started Guide](https://todoist.com/getting-started?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) 🔗\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 4,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:57.698945Z\",\n        \"due\": {\n            \"date\": \"2022-11-08\",\n            \"string\": \"Nov 8\",\n            \"lang\": \"en\",\n            \"is_recurring\": false\n        },\n        \"url\": \"https://todoist.com/showTask?id=6334212472\"\n    },\n    {\n        \"id\": \"6334212491\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062688\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 2,\n        \"content\": \"Take the [productivity method quiz](https://todoist.com/productivity-methods?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)\",\n        \"description\": \"Get a personalized recommendation from Todoist\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 3,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:58.048879Z\",\n        \"due\": {\n            \"date\": \"2022-11-09\",\n            \"string\": \"Nov 9\",\n            \"lang\": \"en\",\n            \"is_recurring\": false\n        },\n        \"url\": \"https://todoist.com/showTask?id=6334212491\"\n    },\n    {\n        \"id\": \"6334212503\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062688\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 3,\n        \"content\": \"Download additional [free apps and plugins](https://todoist.com/help/articles/205383721?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) for 💻,⌚️,🖥,📱 and 📧\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 1,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:58.275411Z\",\n        \"due\": {\n            \"date\": \"2022-11-11\",\n            \"string\": \"Nov 11\",\n            \"lang\": \"en\",\n            \"is_recurring\": false\n        },\n        \"url\": \"https://todoist.com/showTask?id=6334212503\"\n    },\n    {\n        \"id\": \"6334212517\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062688\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 4,\n        \"content\": \"[Connect Todoist](https://todoist.com/integrations?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox) with all the tools I already use\",\n        \"description\": \"\",\n        \"is_completed\": false,\n        \"labels\": [],\n        \"priority\": 1,\n        \"comment_count\": 1,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:58.491808Z\",\n        \"due\": null,\n        \"url\": \"https://todoist.com/showTask?id=6334212517\"\n    },\n    {\n        \"id\": \"6334212535\",\n        \"assigner_id\": null,\n        \"assignee_id\": null,\n        \"project_id\": \"2302062688\",\n        \"section_id\": null,\n        \"parent_id\": null,\n        \"order\": 5,\n        \"content\": \"How Todoist's founder achieves his goals while reducing his stress 😌\",\n        \"description\": \"[Systemist: Todoist's Founder's Personal Productivity Workflow](https://todoist.com/productivity-methods/systemist?utm_source=todoist&utm_medium=in_app&utm_campaign=onboarding_project&utm_content=inbox)\",\n        \"is_completed\": false,\n        \"labels\": [\n            \"read\"\n        ],\n        \"priority\": 1,\n        \"comment_count\": 0,\n        \"creator_id\": \"41815984\",\n        \"created_at\": \"2022-11-08T18:43:58.917309Z\",\n        \"due\": null,\n        \"url\": \"https://todoist.com/showTask?id=6334212535\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "content",
+							"value": "beat every video game",
+							"type": "text"
+						},
+						{
+							"key": "due_string",
+							"value": "tomorrow at 12:00",
+							"type": "text"
+						},
+						{
+							"key": "due_lang",
+							"value": "en",
+							"type": "text"
+						},
+						{
+							"key": "priority",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2302072728"
+						},
+						{
+							"key": "assignee_id",
+							"value": "41816946"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "beat every video game",
+									"type": "text"
+								},
+								{
+									"key": "due_string",
+									"value": "tomorrow at 12:00",
+									"type": "text"
+								},
+								{
+									"key": "due_lang",
+									"value": "en",
+									"type": "text"
+								},
+								{
+									"key": "priority",
+									"value": "5",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2302072728"
+								},
+								{
+									"key": "assignee_id",
+									"value": "41816946"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "559"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:34:58 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 d0daabb98cd0fc162d7c43638940fc12.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "fCWhdixGMmox4NYrNqo6qzZgjSAS507vQ3qkJ3VWWmRe8YCXmdsp4A=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6334787949\",\n    \"assigner_id\": null,\n    \"assignee_id\": null,\n    \"project_id\": \"2302062688\",\n    \"section_id\": null,\n    \"parent_id\": null,\n    \"order\": 7,\n    \"content\": \"beat every video game\",\n    \"description\": \"\",\n    \"is_completed\": false,\n    \"labels\": [],\n    \"priority\": 1,\n    \"comment_count\": 0,\n    \"creator_id\": \"41815984\",\n    \"created_at\": \"2022-11-08T22:34:58.239358Z\",\n    \"due\": {\n        \"date\": \"2022-11-09\",\n        \"string\": \"tomorrow at 12:00\",\n        \"lang\": \"en\",\n        \"is_recurring\": false,\n        \"datetime\": \"2022-11-09T12:00:00\"\n    },\n    \"url\": \"https://todoist.com/showTask?id=6334787949\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "content",
+							"value": "lose every video game",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks",
+						"6334787949"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "lose every video game",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks",
+								"6334787949"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "559"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:38:42 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 d0daabb98cd0fc162d7c43638940fc12.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "1p_k5uhDoKRFWEqE-EpGfdnTugfH73kijXU_u3-VkEK5X3ZhKgD-BQ=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6334787949\",\n    \"assigner_id\": null,\n    \"assignee_id\": null,\n    \"project_id\": \"2302062688\",\n    \"section_id\": null,\n    \"parent_id\": null,\n    \"order\": 7,\n    \"content\": \"lose every video game\",\n    \"description\": \"\",\n    \"is_completed\": false,\n    \"labels\": [],\n    \"priority\": 1,\n    \"comment_count\": 0,\n    \"creator_id\": \"41815984\",\n    \"created_at\": \"2022-11-08T22:34:58.239358Z\",\n    \"due\": {\n        \"date\": \"2022-11-09\",\n        \"string\": \"tomorrow at 12:00\",\n        \"lang\": \"en\",\n        \"is_recurring\": false,\n        \"datetime\": \"2022-11-09T12:00:00\"\n    },\n    \"url\": \"https://todoist.com/showTask?id=6334787949\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks",
+						"6334787949"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks",
+								"6334787949"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "559"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:39:31 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 d0daabb98cd0fc162d7c43638940fc12.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "JdphYbRLetNjAG7PYBhINpm4hZK5ELRvglTrmf8tKFffwiLbRm81Mg=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6334787949\",\n    \"assigner_id\": null,\n    \"assignee_id\": null,\n    \"project_id\": \"2302062688\",\n    \"section_id\": null,\n    \"parent_id\": null,\n    \"order\": 7,\n    \"content\": \"lose every video game\",\n    \"description\": \"\",\n    \"is_completed\": false,\n    \"labels\": [],\n    \"priority\": 1,\n    \"comment_count\": 0,\n    \"creator_id\": \"41815984\",\n    \"created_at\": \"2022-11-08T22:34:58.239358Z\",\n    \"due\": {\n        \"date\": \"2022-11-09\",\n        \"string\": \"tomorrow at 12:00\",\n        \"lang\": \"en\",\n        \"is_recurring\": false,\n        \"datetime\": \"2022-11-09T12:00:00\"\n    },\n    \"url\": \"https://todoist.com/showTask?id=6334787949\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks",
+						"6334787949"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks/6334787949",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks/6334787949",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks",
+								"6334787949"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 22:40:18 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 d0daabb98cd0fc162d7c43638940fc12.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "d2kPnSy3U7Aofj3Y_hyM6Wvru_pXbkGQjo3ocfbmFEMGK2blIS7UgQ=="
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
