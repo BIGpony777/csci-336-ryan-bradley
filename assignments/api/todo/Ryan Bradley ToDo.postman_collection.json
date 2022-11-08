@@ -936,6 +936,427 @@
 					"body": null
 				}
 			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "content",
+							"value": "fix your lab by making a new task so you can open and close it",
+							"type": "text"
+						},
+						{
+							"key": "due_string",
+							"value": "tomorrow at 12:00",
+							"type": "text"
+						},
+						{
+							"key": "due_lang",
+							"value": "en",
+							"type": "text"
+						},
+						{
+							"key": "priority",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2302072728"
+						},
+						{
+							"key": "assignee_id",
+							"value": "41816946"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "content",
+									"value": "fix your lab by making a new task so you can open and close it",
+									"type": "text"
+								},
+								{
+									"key": "due_string",
+									"value": "tomorrow at 12:00",
+									"type": "text"
+								},
+								{
+									"key": "due_lang",
+									"value": "en",
+									"type": "text"
+								},
+								{
+									"key": "priority",
+									"value": "3",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks?id=2302072728&assignee_id=41816946",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2302072728"
+								},
+								{
+									"key": "assignee_id",
+									"value": "41816946"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "600"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 23:07:11 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 a2c162ce08367d0379d62c009d560b4a.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "qeoRlX09IFyAK3zQOoXOwqTrgDIW0qwOwNWajH6QgOC1xVK4wEfp1w=="
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": \"6334850772\",\n    \"assigner_id\": null,\n    \"assignee_id\": null,\n    \"project_id\": \"2302062688\",\n    \"section_id\": null,\n    \"parent_id\": null,\n    \"order\": 7,\n    \"content\": \"fix your lab by making a new task so you can open and close it\",\n    \"description\": \"\",\n    \"is_completed\": false,\n    \"labels\": [],\n    \"priority\": 3,\n    \"comment_count\": 0,\n    \"creator_id\": \"41815984\",\n    \"created_at\": \"2022-11-08T23:07:11.057463Z\",\n    \"due\": {\n        \"date\": \"2022-11-09\",\n        \"string\": \"tomorrow at 12:00\",\n        \"lang\": \"en\",\n        \"is_recurring\": false,\n        \"datetime\": \"2022-11-09T12:00:00\"\n    },\n    \"url\": \"https://todoist.com/showTask?id=6334850772\"\n}"
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks/6334850772/close",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks/6334850772/close",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks",
+						"6334850772",
+						"close"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks/6334850772/close",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks/6334850772/close",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks",
+								"6334850772",
+								"close"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 23:08:48 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 a2c162ce08367d0379d62c009d560b4a.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "D7sO8XjM2eLOGZAQeq0osXL05V1DQAzzMrnmgYI77YAPITojOgk90g=="
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "https://api.todoist.com/rest/v2/tasks/6334850772/reopen",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "53cc3063a6beb088eabb30e0ce1cd762ce737160",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.todoist.com/rest/v2/tasks/6334850772/reopen",
+					"protocol": "https",
+					"host": [
+						"api",
+						"todoist",
+						"com"
+					],
+					"path": [
+						"rest",
+						"v2",
+						"tasks",
+						"6334850772",
+						"reopen"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "https://api.todoist.com/rest/v2/tasks/6334850772/reopen",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://api.todoist.com/rest/v2/tasks/6334850772/reopen",
+							"protocol": "https",
+							"host": [
+								"api",
+								"todoist",
+								"com"
+							],
+							"path": [
+								"rest",
+								"v2",
+								"tasks",
+								"6334850772",
+								"reopen"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 08 Nov 2022 23:10:04 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Credentials",
+							"value": "false"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "strict-origin-when-cross-origin"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains; preload"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-Cache",
+							"value": "Miss from cloudfront"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 a2c162ce08367d0379d62c009d560b4a.cloudfront.net (CloudFront)"
+						},
+						{
+							"key": "X-Amz-Cf-Pop",
+							"value": "BOS50-P2"
+						},
+						{
+							"key": "X-Amz-Cf-Id",
+							"value": "1kQQi_rEODVtG1HyTHGSGw0RuLF1F0UhebbNsXuMlC9uaeEhzUfaYw=="
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
 		}
 	]
 }
