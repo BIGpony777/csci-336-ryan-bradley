@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/background-op.png");
+  background-size: 500px;
+  background-color: #999;
+}
+
+div.content {
+  display: block;
+  padding-top: 2em;
+  text-align: center;
+}
+
+div#image {
+  margin-bottom: 30px;
+}
+
+div#image img {
+  margin-top: 30px;
+  height: 250px;
+  min-width: 250px;
+  max-width: 250px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #686868;
+}
+
+.sub-title {
+  background-color: #fff;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+div#description {
+  margin: 2em;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 15px;
+  max-width: 65%;
+  min-width: 290px;
+  clear: both;
+  display: inline-block;
+}
+
+div#description .description-text {
+  padding: 1em;
+  text-align: left;
+}
+
+div#description img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+@media (min-width: 768px) {
+  div.content {
+    display: flex;
+  }
+  div#image{
+    flex: 1;
+    margin-right: 20px;
+    margin-left:20px;
+  }
+  div#description{
+    flex: 2;
+  }
+}
