@@ -1,7 +1,6 @@
 $(document).ready(function() {
   swapCard();
 });
-"https://images.marvelsnap.io/images/cards/276.webp"
 function swapCard() {
   setTimeout(function() {
     $("#card-image").fadeOut(1500, function(){
