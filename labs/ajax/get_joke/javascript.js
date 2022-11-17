@@ -4,7 +4,7 @@ $(document).ready(function() {
   $.ajax({
     method: "get",
     url: "https://api.chucknorris.io/jokes/random",
-    success: deckShuffledCallback,
+    success: jokeGotCallback,
     error: function(jqxhr, errorStatus) {
       $("#deck-text").text("");
       $("#deck-text").addClass("text-danger");
@@ -13,7 +13,7 @@ $(document).ready(function() {
   });
 });
 
-function deckShuffledCallback(data) {
+function jokeGotCallback(data) {
   state.Id = data.id;
   $("#joke-text").text("");
   $("#joke-text").removeClass("text-danger");
