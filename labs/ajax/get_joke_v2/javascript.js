@@ -22,7 +22,7 @@ function updateViewAsDoneLoading() {
 }
 
 function getJoke() {
-  updateViewAsLoading()
+  updateViewAsLoading();
 
   $.ajax({
     method: "get",
