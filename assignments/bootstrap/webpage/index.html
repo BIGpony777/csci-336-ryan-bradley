@@ -1,0 +1,196 @@
+<html>
+  <head>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#">BIGpony's music workshop
+        <a href="https://www.youtube.com/channel/UCZTNXdS0ndYA0ciBn5fAgRg" type = "btn "class="btn btn-secondary" >My Music</a>
+        <button type="button" style="margin-left:3px;" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+          About
+        </button>
+      </a>
+    </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://www.image-line.com/">
+            <img class="d-block carImg" src="https://www.image-line.com/wp-content/uploads/2019/12/icons-il-logo.png" alt="First slide">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.ableton.com/en/">
+          <img class="d-block carImg" src="data:image/png;base64,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" alt="Second slide">
+          </a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.reaper.fm/">
+            <img class="d-block carImg" src="https://www.reaper.fm/v5img/logo.jpg" alt="Third slide">
+          </a>
+        </div>
+      </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div class="jumbotron">
+      <p class="lead">This is a section that goes into specific techniques to produce music.</p>
+      <hr class="my-4">
+      <p>you can use this page to get started and learn some helpful basics of audio engineering</p>
+    </div>
+    <div class="container-fluid" style = background-color:black>
+      <div class="row p-2">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card">
+              <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="Where your sounds go" src="https://cdn.tutsplus.com/cdn-cgi/image/width=360/audio/uploads/legacy/741_flplaylist/img_2.jpg">
+              <h5 class="card-title">Playlist</h5>
+            </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-2" > 
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="Where your effects go" src="https://d29rinwu2hi5i3.cloudfront.net/article_media/762d9b4c-cca0-42ef-9a90-81b1aa734581/fls_mixer_pic_1.jpg">
+            <h5 class="card-title">Mixer</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-3">
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="What sound looks like" src="data:image/png;base64,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">
+            <h5 class="card-title">Transients & waveforms</h5>
+          </div>                
+        </div>     
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-4" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="range of decibels to encapsulate sound" src = "https://www.manirios.com/wp-content/uploads/2017/08/1-overview-1.jpg">
+            <h5 class="card-title">Compression</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-5" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="changing the natural harmonics of a sound" src="https://edmproducertips.com/wp-content/uploads/2021/02/FabFilter-Pro-Q-3-Extensive-Spectrum-Analyser.png">
+            <h5 class="card-title">Equalization</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="which notes go together" src="https://assets.classicfm.com/2018/13/circle-of-fifths--1523016231.jpg">
+            <h5 class="card-title">Keys</h5>
+          </div>                
+       </div>    
+  
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="how to count the beats" src="https://jadebultitude.b-cdn.net/wp-content/uploads/2020/10/Screenshot-2020-10-11-at-11.38.56.jpg">
+            <h5 class="card-title">Time Signatures</h5>
+          </div>                
+        </div>
+  
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="editable values that store notes" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Computer_music_piano_roll.png/220px-Computer_music_piano_roll.png">
+            <h5 class="card-title">MIDI</h5>
+           </div>                
+        </div>
+  
+         <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="How to get sound from the world" src="https://media.guitarcenter.com/is/image/MMGS7/L88915000000000-00-2000x2000.jpg">
+            <h5 class="card-title">Recording</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="Best order for all of this" src="https://blog.landr.com/wp-content/uploads/2021/08/Best-DAW_UPDATE_feat_1200x627.jpg">
+            <h5 class="card-title">Workflow</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="editing what your sounds sound like" src="https://cdn.shopify.com/s/files/1/0028/5462/products/Reverb_-_Top_a1cacb20-2df4-489a-a97b-8a4da4c88a18.jpg?v=1463158165">
+            <h5 class="card-title">Effects</h5>
+          </div>                
+        </div>
+  
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="card" id="prize-6" >
+            <img class="card-img-top" data-toggle="tooltip" data-placement="bottom" title="getting ready for other speakers" src="https://blog.landr.com/wp-content/uploads/2020/04/Whats-a-Limiter_Body1-1.png">
+            <h5 class="card-title">Mastering</h5>              
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron">
+        <p class="lead">This is a demo of how a compressor works</p>
+        <hr class="my-4">
+        <p>you can use this to get an idea of how compression affects decibel amounts, the scale this model uses is positive and requires the ratio to be less than 10</p>
+      </div>
+
+      <div class="container-fluid">
+        <form id="my-form">
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="Gain" style="color:white">Gain</label>
+              <input type="number" class="form-control" name="Gain" placeholder="1" value="1" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="Threshold" style="color:white">Threshold</label>
+              <input type="number" class="form-control" name="Threshold" placeholder="1" value="1"  required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="Ratio" style="color:white">Ratio</label>
+              <input type="number" class="form-control" name="Ratio" placeholder="1" value="1" required>
+            </div>
+            <button class="btn btn-primary" id="submit-btn" type="submit">Submit form</button>
+
+            <div class="answer" style="color:white"></div>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">About</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              This is a site that intoduces you to many music production ideas to consider. The author of this site is certified in music 
+              production and audio engineering by the Berklee College of Music. By no means should this guide teach you everything about 
+              producing music- it is just to introduce you to ideas which you should then research and master. 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>

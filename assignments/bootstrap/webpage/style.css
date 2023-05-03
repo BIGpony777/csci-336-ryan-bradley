@@ -1,0 +1,47 @@
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:wheat
+  }
+  
+  .card-img-top{
+    height:18rem;
+  }
+  
+  .card-body{
+    height:4rem;
+  }
+  
+  .card-title{
+    height:1rem;
+  }
+  
+  .card{
+    margin-bottom: 20px;
+  }
+
+  .jumbotron{
+    background-color: rgb(99, 99, 99) !important;
+  }
+
+  .my-4{
+    background-color:rgb(99, 99, 99) !important;
+  }
+
+  .carImg {
+    margin:auto;
+    width: 40% !important;
+    height: 75vh;
+  }
+  .carousel-inner{
+    background-color: black;
+  }
+
+  body{
+    background-color: black !important;
+  }
+
+  .answer{
+    color:white;
+    margin-left:3;
+  }
